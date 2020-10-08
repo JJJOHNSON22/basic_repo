@@ -1,0 +1,22 @@
+1) Create a new repo on GitHub and call it basic_repo
+
+2) Create a local repo also called basic_repo
+mkdir basic_repo
+
+3) Create some files inside your local repo and add some content
+touch index.html
+touch style.css
+
+4) Add, commit, and push these changes to github
+git init
+git add .
+git commit -m 'Create index.html and style.css'
+git remote add origin https...
+git push origin master 
+
+5) Make some more changes to the local of your file and push them to Github
+git add style.css
+git commit -m 'update font family in style.css'
+git push origin master
+
+6) Go to Github and view the changes
